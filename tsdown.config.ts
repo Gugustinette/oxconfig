@@ -6,4 +6,5 @@ export default defineConfig({
 	dts: {
 		isolatedDeclarations: true,
 	},
+	external: ["node:fs", "node:path"],
 });
