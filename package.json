@@ -16,13 +16,15 @@
 		"build": "tsdown",
 		"dev": "tsx playground/main.ts",
 		"test": "vitest run",
-		"test:watch": "vitest"
+		"test:watch": "vitest",
+		"benchmark": "tsx benchmark/main.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@types/node": "^22.15.29",
 		"tsdown": "0.12.6",
 		"tsx": "^4.19.4",
+		"unconfig": "^7.3.2",
 		"vitest": "^3.2.1"
 	},
 	"dependencies": {
