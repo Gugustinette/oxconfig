@@ -4,7 +4,9 @@
 	"private": true,
 	"description": "Trying to load config files faster",
 	"type": "module",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -22,6 +24,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@types/node": "^22.15.29",
+		"esbuild": "^0.25.5",
 		"tsdown": "0.12.6",
 		"tsx": "^4.19.4",
 		"unconfig": "^7.3.2",
